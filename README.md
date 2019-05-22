@@ -6,3 +6,7 @@ Pequenos Códigos em Python feitos/adaptados para entender alguma API ou Bibliot
 
 - Telepot
     Código simples que recebe uma mensagem pelo telegram e envia outra, sem funções para escolher a mensagem que enviará, somente uma resposta simples, e uma função para enviar mensagem a um id específico (necessita a criação de um bot do telegram e pegar o ID dele, biblioteca necessária: telepot ) 
+
+-  Gráficos com Matplotlib
+    Código que gera gráficos a partir de um arquivo de texto(txt), o dados no arquivo devem ser separados por uma vírgula e se aceita somente números( biblioteca necessária: Matplotlib ) 
+ 

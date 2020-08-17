@@ -10,3 +10,5 @@ Pequenos Códigos em Python feitos/adaptados para entender alguma API ou Bibliot
 -  Gráficos com Matplotlib
     Código que gera gráficos a partir de um arquivo de texto(txt), o dados no arquivo devem ser separados por uma vírgula e se aceita somente números( biblioteca necessária: Matplotlib ) 
  
+ - Baixar Imagens
+    Script para baixar varias imagens de um site, você precisa fornecer o link e o termo das imagens do site, precisa das bibliotecas BeautifulSoup e shutil

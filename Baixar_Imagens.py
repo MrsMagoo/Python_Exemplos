@@ -31,7 +31,6 @@ def baixar_img(url, nome):
         print(e)
 
 conta = 0
-#url = "https://www.ahnegao.com.br/2020/02/coletanea-de-imagens-aleatorias-da-semana-291.html"
 url = str(input("URL do Site: "))
 print("fazendo a sopa...")
 soup = fazer_sopa(url)
@@ -58,14 +57,8 @@ for img in soup.findAll(procura):
             
 print("Acabou, achei %s imagens" %len(lista))
 conta = 1
-#baixar_img("https://www.ahnegao.com.br/wp-content/uploads/2020/02/img-1-1.jpg", "teste")
 for itens in lista:
     nomee = str(data.day) + "-" + str(data.month) + "-" + str(data.year) + "-" + str(conta)
     conta += 1
     print(itens)
     baixar_img(itens, nomee)
-    #if conta == 3:
-        #break
-    #print(itens)
-    #print(nomee)
-#print(len(lista))
